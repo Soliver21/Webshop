@@ -13,16 +13,35 @@ header i{
     font-size: 1.8rem;
     padding: .5rem .9rem;
     color: #fff;
-    background-color: rgb(40, 40, 117);
+    background-color: rgb(84, 84, 171);
     border-radius: 50%;
+    z-index: 3;
+}
+nav{
+    padding: 10rem  2rem 0 2rem;
+    position: absolute;
+    top: 0;
+    background-color: #1b236b;
+    left: -200rem;
+    bottom: 0;
+    z-index: 2;
 }
 nav a{
     color: #fff;
     text-decoration: none;
     font-size: 1.6rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(97, 165, 225);
 }
 nav ul{
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
 }
 .wrapper{
     margin: 0 auto;
